@@ -1,7 +1,7 @@
 .sidebar {
     flex: 1;
    min-height: 100vh;
-   background-color: rgb(68, 68, 68);
+   background-color: #171717;
 
     hr {
         height: 0;
@@ -22,8 +22,8 @@
    }
 
    .middle {
-    padding-left: 20px;
-    margin-right: 10px;
+    
+   
 
     ul {
         list-style: none;
@@ -33,17 +33,31 @@
         li {
             margin-top: 25px;
             margin-bottom: 15px;
+            padding: 20px;
             display: flex;
             align-items: center;
+            cursor: pointer;
             span {
                 font-size: 14px;
-                font-weight: 400;
-                color: whitesmoke;
+                font-weight: 300;
+                color: rgb(209, 209, 209);
                 margin-left: 10px;
+
+                &:hover {
+                    color:rgb(126, 207, 126);
+                }
+            }
+            &:hover{
+                background-color: #2b2b2b;
+                
             }
 
         }
     }
+   }
+
+   .icon {
+    color:rgb(126, 207, 126);
    }
 }
 

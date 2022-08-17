@@ -24,30 +24,30 @@ const Sidebar = () => {
       <div className='middle'>
       <ul>
         <li>
-          <LocalMallIcon />
+          <LocalMallIcon className="icon" />
           <span>compras</span>
         </li>
         <li>
-          <MonetizationOnIcon />
+          <MonetizationOnIcon className="icon" />
           <span>vendas</span>
         </li>
         <li>
-          <LocalAtmIcon />
+          <LocalAtmIcon className="icon"/>
           <span>Faturamento da plataforma</span>
           
         </li>
         <li>
          
-         <SettingsApplicationsIcon />
+         <SettingsApplicationsIcon className="icon"/>
           <span>Configurações</span>
         </li>
 
         <li>
-        <AccountBoxIcon />
+        <AccountBoxIcon className="icon"/>
           <span>Ir para perfil</span>
         </li>
         <li>
-          <ExitToAppIcon />
+          <ExitToAppIcon className="icon"/>
           <span>Sair</span>
         </li>
       </ul>
