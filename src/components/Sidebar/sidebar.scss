@@ -1,7 +1,7 @@
 .sidebar {
     flex: 1;
    min-height: 100vh;
-   background-color: #171717;
+   background-color: #13293D;
 
     hr {
         height: 0;
@@ -33,14 +33,15 @@
         li {
             margin-top: 25px;
             margin-bottom: 15px;
-            padding: 20px;
+            padding: 25px;
             display: flex;
             align-items: center;
             cursor: pointer;
             span {
                 font-size: 14px;
                 font-weight: 300;
-                color: rgb(209, 209, 209);
+                color: rgb(158, 157, 157);
+                font-weight: bold;
                 margin-left: 10px;
 
                 &:hover {
@@ -48,7 +49,8 @@
                 }
             }
             &:hover{
-                background-color: #2b2b2b;
+              color: #494949;
+                background-color: white;
                 
             }
 

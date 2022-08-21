@@ -1,55 +1,50 @@
 import React from 'react'
 import './navbar.scss'
-import SearchOutlineIcon from '@mui/icons-material/SearchOutlined'
-import LanguageOutlinedIcon from '@mui/icons-material/LanguageOutlined'
-import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined'
-import FullscreeenExitOutlinedIcon from '@mui/icons-material/FullscreenExitOutlined'
-import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined'
-import ChatBubbleOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined'
-import ListOutlinedIcon from '@mui/icons-material/ListOutlined'
 import imgProfile from '../../assets/myperfil.jpg'
+import {BiSearchAlt} from 'react-icons/bi'
+import {FcGlobe } from 'react-icons/fc'
+import {GiMoon} from 'react-icons/gi'
+import {GrNotification} from 'react-icons/gr'
+import {AiOutlineComment} from 'react-icons/ai'
+import {MdList} from 'react-icons/md'
 
 const Navbar = () => {
 
 
-
+// barra horizontal da minbha aplicação
   return (
     <div className='nav'>
       <div className="wrapper">
         <div className="search">
           <input placeholder='pesquisar' />
-          <SearchOutlineIcon className='icon'/>
+          <BiSearchAlt className='iconSearch'/>
         </div>
 
         <div className="itens">
 
           <div className='item'>
-          <LanguageOutlinedIcon className='icon'/>
+          <FcGlobe className='icon'/>
           </div>
           <div className='item'>
-          <DarkModeOutlinedIcon />
-          </div>
-
-          <div className='item'>
-          <FullscreeenExitOutlinedIcon className='icon'/>
+          <GiMoon className='icon' />
           </div>
 
           <div className='item'>
-          <NotificationsNoneOutlinedIcon className='icon'/>
+          <GrNotification className='iconNoti'/>
           <div className='counter'>
           1
           </div>
           </div>
 
           <div className='item'>
-          <ChatBubbleOutlinedIcon className='icon'/>
+          <AiOutlineComment className='iconMsg'/>
           <div className='counter'>
           2
           </div>
           </div>
 
           <div className='item'>
-          <ListOutlinedIcon className='icon'/>
+          <MdList className='iconList'/>
           </div>
 
           <div className='item'>

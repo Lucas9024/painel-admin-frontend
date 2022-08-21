@@ -1,0 +1,61 @@
+.widgetContainer {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1; 
+  padding: 10px;
+  -webkit-box-shadow: 1px 2px 3px 3px rgb(229, 229, 233);
+  border-radius: 5px;
+
+  .primaryData, .secondData {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    margin: 10px;
+
+    span {
+      font-size: 14px;
+    }
+
+    .text {
+      font-size: 17px;
+      font-weight: bold;
+      color: #777777;
+
+    }
+
+    .money {
+      color: #1b1b1b;
+      font-size: 24px;
+      font-weight: 300;
+    }
+
+    .view {
+      background-color: rgba(27, 238, 238, 0.2);
+      border-radius: 10px;
+      padding: 5px;
+      font-size: 14px;
+      font-weight: 400;
+      width: max-content;
+      color: rgb(122, 122, 122);
+      cursor: pointer;
+    }
+
+    .porcen {
+      display: flex;
+      align-items: center;
+
+      &.positive {
+        color: red;
+      }
+    }
+
+    .icon {
+      align-self: flex-end;
+    }
+
+
+
+  }
+}

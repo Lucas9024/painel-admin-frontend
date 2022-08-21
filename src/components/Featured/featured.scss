@@ -1,0 +1,55 @@
+.featured {
+  flex: 2;
+  padding: 20px;
+  background-color: white;
+  -webkit-box-shadow: 1px 2px 3px 3px rgb(229, 229, 233);
+  border-radius: 5px;
+  
+  .initText {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+
+    .icone {
+      color: dimgray;
+    }
+
+    .text {
+      font-size: 20px;
+      font-weight: 500;
+      color: dimgrey;
+    }
+
+
+  }
+
+
+  .circules {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 40px;
+    padding: 10px;
+    text-align: center;
+
+    .circleChart {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+    }
+
+    .textChart {
+      font-size: 22px;
+      font-weight: 400;
+      color: dimgray;
+    }
+
+
+  }
+
+
+
+}
