@@ -1,0 +1,40 @@
+.dataContainer {
+  height: 500px;
+  padding: 20px;
+
+  .imgPerson {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     img {
+      width: 30px; 
+      height: 30px; 
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 10px;
+     }
+  }
+
+  .widthStatus {
+
+    padding: 3px;
+    &.ativo {
+      background-color: rgba(127, 255, 212, 0.541);
+      color: green;
+      border-radius: 20px;
+     
+    }
+    &.pendente {
+      background-color: rgba(242, 245, 78, 0.541);
+      color: rgb(116, 116, 5);
+      border-radius: 20px;
+    }
+    &.aguardando {
+
+      background-color: rgba(211, 26, 26, 0.2);
+      color: red;
+      border-radius: 20px;
+
+    }
+  }
+}
