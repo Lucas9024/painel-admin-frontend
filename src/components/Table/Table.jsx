@@ -71,12 +71,12 @@ const Tables = () => {
       <TableHead>
         <TableRow>
           <TableCell>Id do produto</TableCell>
-          <TableCell align="right">Cliente</TableCell>
-          <TableCell align="right"> Acesso </TableCell>
-          <TableCell align="right"> Nome do produto</TableCell>
-          <TableCell align="right">Produto</TableCell>
-          <TableCell align="right">Pagamento</TableCell>
-          <TableCell align="right">Status</TableCell>
+          <TableCell className='tablesCell'>Cliente</TableCell>
+          <TableCell className='tablesCell'> Acesso </TableCell>
+          <TableCell className='tablesCell'> Nome do produto</TableCell>
+          <TableCell className='tablesCell'>Produto</TableCell>
+          <TableCell className='tablesCell'>Pagamento</TableCell>
+         
         </TableRow>
       </TableHead>
       <TableBody>
