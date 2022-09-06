@@ -26,7 +26,7 @@ const data = [
 ]
 
 
-const charts = ({ aspect, title }) => {
+const Charts = ({ aspect, title }) => {
   return (
 
     <div className="charts">
@@ -35,7 +35,7 @@ const charts = ({ aspect, title }) => {
       </div>
       <ResponsiveContainer width="100%" aspect={aspect}>
 
-      <AreaChart width={730} height={250} data={data}
+      <AreaChart width={730} height={280} data={data}
       margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
       <defs>
         <linearGradient id="total" x1="0" y1="0" x2="0" y2="1">
@@ -63,4 +63,4 @@ const charts = ({ aspect, title }) => {
   )
 }
 
-export default charts
+export default Charts

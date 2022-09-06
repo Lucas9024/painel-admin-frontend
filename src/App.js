@@ -20,14 +20,22 @@ function App() {
           <Route index element={<Home />}/>
           <Route path="login" element={<Login />}/>
         </Route>
+
+        {/** ao entrar nos produtos, podemos ir até o id do usuario*/}
         <Route path="users">
           <Route index element={<List />}/>
           <Route  path=":useId" element={<Single />}/>
+
+          {/**Nesssa parte, podemos cadastrar um novo usuario */}
           <Route path="new" element={<New />}/>
         </Route>
+
+        {/** ao entrar no user, podemos ir até o id do produto */}
         <Route path="products">
         <Route index element={<List />}/>
           <Route index path=":prodId" element={<Single />}/>
+
+          {/**Nesssa parte, criamos um novo produto */}
           <Route path="new" element={<New />}/>
           
         </Route>
