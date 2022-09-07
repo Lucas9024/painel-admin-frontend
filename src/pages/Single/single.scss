@@ -4,18 +4,24 @@
 
   .content {
   flex: 6;
-  gap: 20px;
+
   
   .topBottom {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    .top {
+    flex-wrap: nowrap;
+    height: auto;
+    margin: 20px;
+   
+    .blockLeft {
       -webkit-box-shadow: 1px 2px 3px 3px rgb(229, 229, 233);
-      width: 50%;
+      flex: 2;
       padding: 20px;
-      gap: 10px;
       margin: 20px;
+      padding-bottom: 10px;
+      gap: 10px;
+      max-height: 200px;
       display: flex;
       flex-direction: column;
       position: relative;
@@ -37,8 +43,7 @@
         justify-content: space-around;
 
         .infotexts {
-          gap: 20px;
-
+          padding: 10px;
           .texts {
             display: flex;
             flex-direction: row;
@@ -61,7 +66,7 @@
       }
 
       .info {
-        padding: 20px;
+      
         font-size: 20px;
         font-weight: 500;
         color: rgb(180, 180, 180);
@@ -76,11 +81,18 @@
       }
 
     }
-    .bottom {
-      width: 50%; 
-      -webkit-box-shadow: 1px 2px 3px 3px rgb(229, 229, 233);
+    .blockRight {
+    max-height: 200px;
+    flex: 2;
+    padding: 20px;
+    
+
+    }
+
+    .blockBottom {
+      width: 100%;
       margin: 20px;
-      padding-top: 10px;
+      gap: 20px;
     }
 
   }

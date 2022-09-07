@@ -15,13 +15,17 @@ const Home = () => {
       <Sidebar />
       <hr />
     <div className="homeContainer">
+      
       <Navbar />
+
       <div className='homeWidget'>
+
       <Widget propertys="usuario"/>
 
       <Widget propertys="produtos"/>
 
       <Widget propertys="estoque"/>
+
       </div>
 
       <div className="chartContainer">

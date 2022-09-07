@@ -3,6 +3,7 @@ import Navbar from '../../components/Navbar/Navbar'
 import Sidebar from '../../components/Sidebar/Sidebar'
 import Charts from '../../components/Charts/charts'
 import './single.scss'
+import Datatable from '../../components/Datatable/Datatable'
 
 
 const Single = () => {
@@ -16,7 +17,7 @@ const Single = () => {
 
         <Navbar />
        <div className='topBottom'>
-        <div className='top'>
+        <div className='blockLeft'>
 
           <span className="info">Informações do cliente</span>
           <span className='editbtn'>Editar</span>
@@ -52,12 +53,18 @@ const Single = () => {
           </div>
         </div>
 
-        <div className='bottom'>
+        <div className='blockRight'>
 
-          <Charts aspect={3 / 1} title="Ultimas movimentações"/>
+          <Charts aspect={ 3 / 1 } title="Ultimas movimentações"/>
 
         </div>
+
+       
     </div>
+
+    <div className='blockBottom'>
+            <Datatable />
+        </div>
        
 
       </div>
