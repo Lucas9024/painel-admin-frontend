@@ -6,8 +6,13 @@ import Single from './pages/Single/Single'
 import New from './pages/New/New'
 import List from './pages/List/List'
 
+import {product} from './formsource'
+import {users} from './formsource'
+
 function App() {
 
+
+  
   return (
 
     <div className="App">
@@ -27,7 +32,7 @@ function App() {
           <Route  path=":useId" element={<Single />}/>
 
           {/**Nesssa parte, podemos cadastrar um novo usuario */}
-          <Route path="new" element={<New />}/>
+          <Route path="new" element={<New inputs={users} title="Adicionar novos usuários"/>}/>
         </Route>
 
         {/** ao entrar no user, podemos ir até o id do produto */}
@@ -36,7 +41,8 @@ function App() {
           <Route index path=":prodId" element={<Single />}/>
 
           {/**Nesssa parte, criamos um novo produto */}
-          <Route path="new" element={<New />}/>
+
+          <Route path="new" element={<New inputs={product} title="Adicionar novos produtos"/>}/>
           
         </Route>
 
