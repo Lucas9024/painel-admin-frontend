@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  
+
+  .content {
+    flex: 6;
+
+    .blockTop {
+
+      margin: 20px;
+      padding: 20px;
+      box-shadow: 1px 2px 2px 1px #cecece;
+
+      .textUser {
+        color: #969696;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    }
+
+    
+    .blockBottom {
+
+      margin: 20px;
+      padding: 20px;
+      box-shadow: 1px 2px 2px 1px #cecece;
+
+    }
+  }
+}
