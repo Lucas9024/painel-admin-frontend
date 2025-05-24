@@ -1,4 +1,4 @@
-# loja virtual completa
+# loja virtual completa - painel da Loja
 
 Criando uma loja completa com reactjs e firebase. 
 
