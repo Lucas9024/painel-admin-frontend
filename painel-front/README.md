@@ -1,12 +1,21 @@
-# React + Vite
+# loja virtual completa - painel da Loja
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Criando uma loja completa com reactjs e firebase. 
 
-Currently, two official plugins are available:
+Irei utilizar o sass para estilizar o css da minha aplicação. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Material Icon 
 
-## Expanding the ESLint configuration
+Vou usar o material icon para imporar icones para a minha aplicação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## React Icons 
+
+Irei utilizar o react-icons para importar alguns icones para meu sistema. 
+
+
+## Painel 
+
+Começarei pelo painel da loja virtual, que terá o cadastramento de usuários, produtos e também um CRUD completo, 
+para a que venhamos ter o poder de atualizar, excluir, Criar e ver os dados de cadastro.
+
+
